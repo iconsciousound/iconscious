@@ -1,0 +1,289 @@
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: ;
+  padding: 25px;
+  grid-template-areas:
+    "logo menu"
+    'cart cart'
+    'buymusic buymusic'
+    'jacketst jacketst'
+    'zipc zipc'
+    'zipl2 zipl2'
+    'hats hats' 
+    'ihat ihat'
+    'hat1 hat1'
+    'hat2 hat2'
+    'b1 b1'
+    'bbob bbob'
+    'ts ts'
+    'tshirt tshirt'
+    'crestt crestt'
+    'crest2 crest2'
+    'tcrown tcrown'
+    'tlion tlion'
+    'tshirt2 tshirt2'
+    'tshirt3 tshirt3'
+    'tshirt4 tshirt4'
+    'tshirt5 tshirt5'
+    'tshirt6 tshirt6'
+   "navbar navbar"
+    "social social"
+    "footer footer";
+}
+.grid-container > div {
+  background-color:  ;
+  text-align: ;
+  padding: 0px 0;
+  font-size: ;
+  color: #000;
+}
+body {
+Width: 100%;
+Color: ;
+  
+Font-size: 1em;
+Text-transform: ;
+Text-align: center;
+font-family: 'Roboto', sans-serif;
+Margin: auto;
+background: radial-gradient(green, yellow, red);
+}
+
+.jacketst {grid-area: jacketst;}
+.buymusic {grid-area: buymusic;}
+.b1 {grid-area: b1;}
+.crestt {grid-area: crestt;}
+.tcrown {grid-area: tcrown;}
+.tlion {grid-area: tlion;}
+.bbob {grid-area: bbob;}
+.zipl2 {grid-area: zipl2;}
+.crest2 {grid-area: crest2;}
+.zipc {grid-area: zipc;}
+.tshirt2 {
+  grid-area: tshirt2;
+  text-align: center;
+   filter: drop-shadow(0px 0px 20px #000000);
+  will-change: transform;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(-0.0027deg) rotateY(0.0027deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+} 
+.tshirt3 {
+  grid-area: tshirt3;
+  text-align: center;
+   filter: drop-shadow(0px 0px 20px #000000);
+} 
+.tshirt4 {
+  grid-area: tshirt4;
+  text-align: center;
+   filter: drop-shadow(0px 0px 20px #000000);
+} 
+.tshirt5 {
+  grid-area: tshirt5;
+  text-align: center;
+   filter: drop-shadow(0px 0px 20px #000000);
+} 
+.tshirt6 {
+  grid-area: tshirt6;
+  text-align: center;
+   filter: drop-shadow(0px 0px 20px #000000);
+} 
+.hats {grid-area: hats;}
+.ts {grid-area: ts;}
+.ihat {grid-area: ihat; 
+  text-align: center; filter: drop-shadow(0px 0px 20px #000000);}
+.hat1 {
+  grid-area: hat1; 
+  text-align: center;
+ filter: drop-shadow(0px 0px 20px #000000);
+}
+.hat2 {
+  grid-area: hat2; text-align: center; filter: drop-shadow(0px 0px 20px #000000);}
+.tshirt {
+  grid-area: tshirt; 
+  text-align: center; 
+      height: auto;
+   filter: drop-shadow(0px 0px 20px #000000);
+ }
+
+.logo {
+  grid-area: logo;
+  background-color: #;
+   filter: drop-shadow(0px 0px 20px #ffffff);
+  text-align: left;
+  margin: 15px;
+  display: block;
+}
+.navbar {
+  grid-area: navbar;
+  background-color: #;
+  text-align: left;
+  margin-top: 20px;
+}
+.footer {
+  grid-area: footer;
+  text-align: center;
+  margin: 15px;
+}
+h3 {
+  border-bottom: 1px #000 solid;
+  padding: 10px;
+  text-align: left;
+}
+img {
+  width: 80%;
+  height: auto;
+}
+ul.a {
+  list-style-type: circle;
+}
+ul {
+  margin: auto;
+  list-style-type: none;
+  color: black;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+}
+li {
+  display: block;
+  margin: 20px;
+}
+li a {
+  color: black;
+  text-decoration: none;
+}
+/* Change the link color on hover */
+li a:hover {
+
+  color: black;
+  background: none;
+}
+/* Nav */
+.fa {
+  /* padding: 10px; */
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+.menu {
+  margin: 15px;
+}
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0); /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
+.cart { grid-area: cart; height: 5px; position: relative; display: none;}
+.social {
+  grid-area: social;
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px;}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: center;
+}
+form {display: inline-block; margin: 0;}
+
+@media screen and (min-width: 800px) {
+  .grid-container {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: ;
+    padding: 0 100px 0 100px;
+    grid-template-areas:
+      "logo logo"
+      'cart cart'
+      'buymusic buymusic'
+      'jacketst jacketst'
+      'zipl2 zipc'
+      'hats hats'
+      'ihat hat1'
+      'hat2 b1'
+      'bbob .'
+      'ts ts'
+      'crest2 tcrown'
+      'tshirt tshirt2'
+      'tshirt3 tshirt4'
+      'tshirt5 tshirt6'
+      'crestt tlion'
+      "navbar navbar"  
+      "social social"
+      "footer footer";
+  }
+  
+  .topnav {
+    display: none;
+  }
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+  .logo {
+    text-align: center;
+    top: 15px;
+    display: block;
+    position: relative;
+  }
+  html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+  .menu {display: none;}
+  .social {margin: 5px 0 5px 0;}
+}
