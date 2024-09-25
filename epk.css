@@ -127,7 +127,7 @@ h1 {
 }
 .contact {
   grid-area: contact;
-  text-align: center;
+  text-align: left;
   margin: 40px 20px 20px 40px;
 }
 .footer {
