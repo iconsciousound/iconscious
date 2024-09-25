@@ -72,6 +72,7 @@ background: url();
 .enter {
   grid-area: enter;
   margin: 20px auto 20px auto;
+  z-index: 1;
 }
 
 .logo {
