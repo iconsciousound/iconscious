@@ -179,7 +179,7 @@ background: url();
 }
 .video2 {
   grid-area: video2;
-  display: none;
+  display: ;
   width: 90%;
   margin: auto auto 20px auto;
   filter: grayscale(100%);
