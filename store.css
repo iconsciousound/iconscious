@@ -36,7 +36,7 @@
   text-align: ;
   padding: 0px 0;
   font-size: ;
-  color: #000;
+  color: white;
 }
 body {
 Width: 100%;
@@ -47,7 +47,8 @@ Text-transform: ;
 Text-align: center;
 font-family: 'Roboto', sans-serif;
 Margin: auto;
-background: radial-gradient(green, yellow, red);
+/* background: radial-gradient(green, yellow, red); */
+background: black;
 }
 
 .jacketst {grid-area: jacketst;}
@@ -99,6 +100,7 @@ background: radial-gradient(green, yellow, red);
 }
 .hat2 {
   grid-area: hat2; text-align: center; filter: drop-shadow(0px 0px 20px #000000);}
+  
 .tshirt {
   grid-area: tshirt; 
   text-align: center; 
