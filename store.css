@@ -142,7 +142,7 @@ ul.a {
 ul {
   margin: auto;
   list-style-type: none;
-  color: black;
+  color: white;
   text-align: center;
   padding: 0;
   width: 100%;
@@ -152,13 +152,13 @@ li {
   margin: 20px;
 }
 li a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 /* Change the link color on hover */
 li a:hover {
 
-  color: black;
+  color: white;
   background: none;
 }
 /* Nav */
@@ -167,7 +167,7 @@ li a:hover {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: white;
   margin: 0;
 }
 .menu {
