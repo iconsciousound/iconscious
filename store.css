@@ -240,6 +240,7 @@ td, th {
     display: table-cell;
     vertical-align: inherit;
     text-align: center;
+    color: white;
 }
 form {display: inline-block; margin: 0;}
 
