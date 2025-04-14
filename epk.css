@@ -159,6 +159,14 @@ h1 {
       "footer footer";
     padding: 0px;
   }
+
+  .logo {
+    grid-area: logo;
+    width: 100%;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
 video { height: 400; }
   .about {
     padding: 20px 20px 0px 20px;
