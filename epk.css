@@ -40,6 +40,7 @@ body {
   top: 40%;
   position: relative;
   text-align: center;
+  display: none;
 }
 .logovid {
   grid-area: logovid;
