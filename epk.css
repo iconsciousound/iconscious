@@ -169,6 +169,7 @@ h1 {
     text-align: center;
     top: 160;
     position: relative;
+    display: none;
   }
   
 video { height: 400; }
