@@ -2,7 +2,7 @@
   display: grid;
   grid-template-areas:
     'logo logo'
-    "logovid-d logovid-d"
+    "logovid-m logovid-m"
     "about music"
     "vid vid"
     "shared shared"
@@ -64,7 +64,7 @@ body {
 }
 .logovid-m {
   grid-area: logovid-m;
-  display: none;
+  display: ;
 }
 
 a {
@@ -173,7 +173,6 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
-
 }
 
   .logo {
