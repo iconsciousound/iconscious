@@ -2,7 +2,7 @@
   display: grid;
   grid-template-areas:
     'logo logo'
-    "logovid logovid"
+    "logovidd logovidd"
     "about music"
     "vid vid"
     "shared shared"
@@ -42,8 +42,8 @@ body {
   text-align: center;
   display: none;
 }
-.logovid {
-  grid-area: logovid;
+.logovid-desktop {
+  grid-area: logovidd;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -51,7 +51,7 @@ body {
   z-index: -1;
 }
 .logovid:after {
-  grid-area: logovid;
+  grid-area: logovidd;
   content: "";
   position: absolute;
   top: 0;
@@ -150,7 +150,7 @@ h1 {
     display: grid;
     grid-template-areas:
       'logo logo'
-      "logovid logovid"
+      "logovidd logovidd"
       "about about"
       "music music"
       "vid vid"
