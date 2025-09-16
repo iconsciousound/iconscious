@@ -179,17 +179,16 @@ h1 {
 
   .logo {
     grid-area: logo;
-    /* width: 100%; */
+    width: 90%;
     margin: auto;
-    /* padding: 40px 20px; */
-    text-align: center;
-    /* top: 160; */
+    height: 100vh;
+    top: 40%;
     position: relative;
-    /* display: none; */
+    text-align: center;
   }
 
-  video {
-  }
+  video { }
+
   .about {
     padding: 20px 20px 0px 20px;
     text-align: center;
