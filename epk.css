@@ -179,6 +179,7 @@ h1 {
   .logo {
     grid-area: logo;
     position: relative;
+    display: none;
   }
 
   .about {
