@@ -186,7 +186,8 @@ h1 {
     /* display: none; */
   }
   
-video { height: 400; }
+video { }
+
   .about {
     padding: 20px 20px 0px 20px;
     text-align: center;
