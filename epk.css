@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    'logo logo'
+    "logo logo"
     "logovid-m logovid-m"
     "about music"
     "vid vid"
@@ -64,7 +64,7 @@ body {
 }
 .logovid-m {
   grid-area: logovid-m;
-  display: ;
+  display: none;
 }
 
 a {
@@ -149,12 +149,11 @@ h1 {
   margin: 0 5px;
 }
 
-
 @media only screen and (max-width: 600px) {
   .grid-container {
     display: grid;
     grid-template-areas:
-      'logo logo'
+      "logo logo"
       "logovid-m logovid-m"
       "about about"
       "music music"
@@ -165,15 +164,18 @@ h1 {
       "footer footer";
     padding: 0px;
   }
-.logovid-d {display: none;}
-.logovid-m {
-  grid-area: logovid-m;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
+  .logovid-d {
+    display: none;
+  }
+  .logovid-m {
+    grid-area: logovid-m;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    display: block;
+  }
 
   .logo {
     grid-area: logo;
@@ -185,9 +187,9 @@ h1 {
     position: relative;
     /* display: none; */
   }
-  
-video { }
 
+  video {
+  }
   .about {
     padding: 20px 20px 0px 20px;
     text-align: center;
