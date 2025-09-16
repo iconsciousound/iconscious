@@ -177,15 +177,6 @@ h1 {
     display: block;
   }
 
-  .logo {
-    grid-area: logo;
-    width: 90%;
-    margin: auto;
-    height: 100vh;
-    top: 40%;
-    position: relative;
-    text-align: center;
-  }
 
   .about {
     padding: 20px 20px 0px 20px;
