@@ -176,7 +176,10 @@ h1 {
     z-index: -1;
     display: block;
   }
-  .logo {position: relative;}
+  .logo {
+    grid-area: logo;
+    position: relative;
+  }
 
   .about {
     padding: 20px 20px 0px 20px;
